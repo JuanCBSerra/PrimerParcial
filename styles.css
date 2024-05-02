@@ -36,17 +36,11 @@ main {
     margin: 5%;
 }
 
-.column-imagen {
-    flex: 0 0 30%;
-    padding: 50px 10px 50px 50px;
-}
-
-.column-datos {
+.container-content {
     margin: 0.4rem;
-    padding: 50px;
 }
 
-.column-datos p {
+.container-content p {
     margin-bottom: 10px;
 }
 
@@ -57,9 +51,8 @@ main {
 
 .foto {
   max-width: 100%;
-  height: auto;
-  min-width: 450px;
-  border-radius: 5%;
+  min-width: 400px;
+  border-radius: 7%;
 }
 
 @media screen and (max-width: 768px) {
@@ -67,8 +60,8 @@ main {
         flex-direction: column;
     }
 
-    .column-imagen,
-    .column-datos {
+    .container-imagen,
+    .container-content {
         flex: 1 1 auto;
         width: 100%;
         padding: 20px;
@@ -80,12 +73,6 @@ main {
 }
 
 footer img {
-  width: 7rem;
-  height: 4rem;
-  padding: 0.8rem;
+  width: 10%;
   background-color: #FFFFFF;
-}
-
-.text-bold {
-  font-weight: bold;
 }
