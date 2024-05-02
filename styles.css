@@ -1,0 +1,91 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    color: #9A44A2;;
+    background-color: #F5F5F5;
+}
+
+header,
+footer {
+    margin: 0px;
+    background-color: #F9EFF9;
+    text-align: center;
+}
+
+footer {
+    padding: 5px 0;
+}
+
+header {
+    padding: 5px 12%;
+}
+
+header h1 {
+    color: #9A44A2;
+    font-size: 2rem;
+    width: 100%;
+    margin: 10px;
+}
+
+main {
+    align-items: center;
+    display: flex;
+    margin: 5%;
+}
+
+.column-imagen {
+    flex: 0 0 30%;
+    padding: 50px 10px 50px 50px;
+}
+
+.column-datos {
+    margin: 0.4rem;
+    padding: 50px;
+}
+
+.column-datos p {
+    margin-bottom: 10px;
+}
+
+.logo-uade {
+  max-width: 100%;
+  height: auto;
+}
+
+.foto {
+  max-width: 100%;
+  height: auto;
+  min-width: 450px;
+  border-radius: 5%;
+}
+
+@media screen and (max-width: 768px) {
+    main {
+        flex-direction: column;
+    }
+
+    .column-imagen,
+    .column-datos {
+        flex: 1 1 auto;
+        width: 100%;
+        padding: 20px;
+    }
+
+    .foto{
+    min-width: auto;
+    }
+}
+
+footer img {
+  width: 7rem;
+  height: 4rem;
+  padding: 0.8rem;
+  background-color: #FFFFFF;
+}
+
+.text-bold {
+  font-weight: bold;
+}
